@@ -1,20 +1,16 @@
-package Main;
+package Tile;
 
-import Tiles.Tiles;
+import Main.MonopolyBoard;
+import Tile.Tiles;
 
 public class Penjara extends Tiles {
 
     private String[] option;
     private int numOfOption;
-    MonopolyBoard board;
 
     public Penjara(int numOfOption, MonopolyBoard board) {
-        this.name = "penjara";
-        this.numOfOption = numOfOption;
-        option = new String[numOfOption];
-        for(int i=0;i<numOfOption;i++){
-            option[i]="";
-        }
+        name = "penjara";
+        this.board = board;
     }
 
     public void setOption(int choice) {

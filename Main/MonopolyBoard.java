@@ -3,7 +3,7 @@ package Main;
 import java.util.Random;
 
 public class MonopolyBoard {
-    int dice1, dice2;
+    public int dice1, dice2;
     Random randomizer = new Random();
 
     public void rolldice(){

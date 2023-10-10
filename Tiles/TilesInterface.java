@@ -1,4 +1,0 @@
-package Tiles;
-
-interface TilesInterface {
-}

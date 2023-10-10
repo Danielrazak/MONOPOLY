@@ -1,14 +1,18 @@
-package Tiles;
+package Tile;
+
+import Main.MonopolyBoard;
 
 public class Tanah extends Tiles{
-    String owner;
+    String placeName, owner;
     int price, rent, house;
     boolean isOccupied;
 
-    public Tanah(String name, int price, int rent) {
+    public Tanah(MonopolyBoard board, String location, int price, int rent) {
+        name = "land";
+        this.board = board;
+        placeName = location;
         this.price = price;
         this.rent = rent;
-        this.name = name;
     }
 
     public void buy(String player){

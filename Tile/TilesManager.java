@@ -1,4 +1,4 @@
-package Tiles;
+package Tile;
 
 public class TilesManager {
 }

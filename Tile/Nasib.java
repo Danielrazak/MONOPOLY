@@ -1,14 +1,12 @@
-package Main;
+package Tile;
 
 import java.util.Random;
 
-public class Nasib {
-
-    private String name;
+public class Nasib extends Tiles{
     private int numOfFate;
 
-    public Nasib(String name, int numOfFate) {
-        this.name = name;
+    public Nasib(int numOfFate) {
+        name = "fate";
         this.numOfFate = numOfFate;
     }
 
