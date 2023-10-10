@@ -1,6 +1,6 @@
 package Main;
 
-import Tiles.Tiles;
+import Tile.Tiles;
 
 import java.util.Random;
 

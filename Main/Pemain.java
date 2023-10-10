@@ -1,6 +1,6 @@
 package Main;
 
-import Tiles.Tiles;
+import Tile.Tiles;
 
 public class Pemain {
 
