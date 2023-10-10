@@ -1,11 +1,9 @@
 package Main;
 
+import javax.swing.*;
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println("den");
-        System.out.println("Azim masuk");
-        System.out.println("Main");
-        System.out.println("idsugfiusgfiuds");
-        System.out.println("ubah");
+        JFrame window = new JFrame("Taikun Tanah");
     }
 }
