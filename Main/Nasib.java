@@ -20,4 +20,5 @@ public class Nasib {
     public void fateHappened() {
 
     }
+
 }
