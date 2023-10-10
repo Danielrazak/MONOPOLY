@@ -1,6 +1,6 @@
 package Main;
 
-import Tiles.Tiles;
+import Tile.Tiles;
 
 public class Pemain {
 
@@ -18,7 +18,7 @@ public class Pemain {
     }
 
     public void throwDice(){
-
+        board.rollDice();
     }
 
     public void move(int toTiles){

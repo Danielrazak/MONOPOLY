@@ -1,7 +1,6 @@
 package Tile;
 
 import Main.MonopolyBoard;
-import Tile.Tiles;
 
 public class Penjara extends Tiles {
 
@@ -24,7 +23,7 @@ public class Penjara extends Tiles {
     }
 
     private void rollDiceToEscape(){
-        board.rolldice();
+        board.rollDice();
 
         //roll dice
         if(board.dice1 == board.dice2){
