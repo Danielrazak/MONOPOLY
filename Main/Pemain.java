@@ -18,7 +18,7 @@ public class Pemain {
     }
 
     public void throwDice(){
-
+        board.rollDice();
     }
 
     public void move(int toTiles){
