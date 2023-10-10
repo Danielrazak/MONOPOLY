@@ -1,4 +1,5 @@
 package Tiles;
 
-public class Tiles {
+public class Tiles{
+    String name;
 }

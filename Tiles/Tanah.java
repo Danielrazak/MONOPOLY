@@ -1,9 +1,7 @@
 package Tiles;
 
-public class Tanah {
-    private String option[];
-    private int numOfOption;
-    String owner, name;
+public class Tanah extends Tiles{
+    String owner;
     int price, rent, house;
     boolean isOccupied;
 
