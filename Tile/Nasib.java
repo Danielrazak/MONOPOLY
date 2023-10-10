@@ -18,4 +18,5 @@ public class Nasib extends Tiles{
     public void fateHappened() {
 
     }
+
 }
