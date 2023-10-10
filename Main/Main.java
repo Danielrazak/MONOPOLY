@@ -6,5 +6,6 @@ public class Main {
         System.out.println("Azim masuk");
         System.out.println("Main");
         System.out.println("idsugfiusgfiuds");
+        System.out.println("ubah");
     }
 }
