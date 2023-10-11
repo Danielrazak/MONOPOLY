@@ -38,5 +38,4 @@ public class Tiles{
     public String[] getOption() {
         return option;
     }
-    //Hello
 }
